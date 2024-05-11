@@ -31,7 +31,7 @@ const Phone = () => {
        <div className="mt-[100px]">
        <Slider {...settings}>
         <div>
-          <img src={Ar} alt="" />
+          <img src={Ar} alt=""/>
         </div>
         <div>
           <img src={Arr} alt="" />
