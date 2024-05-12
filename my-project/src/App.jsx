@@ -3,11 +3,15 @@ import RootLayout from './components/layout/RootLayout'
 import Home from './pages/Home'
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom'
 import Products from './pages/Products'
+import About from './pages/About'
+import Contact from './pages/Contact'
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout/>}>
     <Route index element={<Home/>}></Route>
     <Route path="/Products" element={<Products/>}></Route>
+    <Route path="/About" element={<About/>}></Route>
+    <Route path="/Contact" element={<Contact/>}></Route>
   </Route>
 ))
 

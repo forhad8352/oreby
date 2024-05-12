@@ -22,8 +22,8 @@ const Menu = () => {
                                                 'top-[50px] left-0 bg-[#7e3939] w-full duration-700':'top-[50px] left-[-100%] w-full duration-700'}`}> 
                                         <li className=' font-dmfont lg:text-[#767676] text-[#000] font-medium text-[14px] hover:text-[#262626] hover:font-bold hover:duration-700 px-5 py-2 lg:py-0'><Link to={"/"}>Home</Link></li>
                                         <li className=' font-dmfont lg:text-[#767676] text-[#000] font-medium text-[14px] hover:text-[#262626] hover:font-bold hover:duration-700 px-5 py-2 lg:py-0'> <Link to={"/Products"}>Shop</Link></li>
-                                        <li className=' font-dmfont lg:text-[#767676] text-[#000] font-medium text-[14px] hover:text-[#262626] hover:font-bold hover:duration-700 px-5 py-2 lg:py-0'>About</li>
-                                        <li className=' font-dmfont lg:text-[#767676] text-[#000] font-medium text-[14px] hover:text-[#262626] hover:font-bold hover:duration-700 px-5 py-2 lg:py-0'>Contact</li>
+                                        <li className=' font-dmfont lg:text-[#767676] text-[#000] font-medium text-[14px] hover:text-[#262626] hover:font-bold hover:duration-700 px-5 py-2 lg:py-0'> <Link to={"/About"}>About</Link>  </li>
+                                        <li className=' font-dmfont lg:text-[#767676] text-[#000] font-medium text-[14px] hover:text-[#262626] hover:font-bold hover:duration-700 px-5 py-2 lg:py-0'> <Link to={"/Contact"}>Contact</Link></li>
                                         <li className=' font-dmfont lg:text-[#767676] text-[#000] font-medium text-[14px] hover:text-[#262626] hover:font-bold hover:duration-700 px-5 py-2 lg:py-0'>Journal</li>
                                 </ul>
                         </div>
