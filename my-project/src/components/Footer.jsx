@@ -10,65 +10,121 @@ const Footer = () => {
   return (
     <section className="bg-[#F5F5F3] py-[55px]">
       <div className="container mx-auto">
-        <div className="flex justify-between">
-          <div className="w-[15%]">
-            <h4 className="text-[16px] font-bold text-[#262626] leading-6 pb-[17px]">MENU</h4>
-            <ul>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Home</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Shop</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">About</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Contact</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Journal</li>
-            </ul>
+        <div className="lg:flex lg:justify-between lg:mx-0 mx-[10px]">
+          <div className="lg:w-[65%] lg:flex lg:justify-between lg:text-start text-center">
+            <div className="flex justify-between lg:w-[65%] w-full">
+              <div className="">
+                <div className="">
+                  <span className="text-[16px] text-[#262626] font-dm font-bold mb-[17px] ">MENU</span>
+                  <ul>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">Home</li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">Shop</li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">About</li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">Contact</li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">Journal</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="">
+                <div className="">
+                  <span className="text-[16px] text-[#262626] font-dm font-bold mb-[17px] ">
+                    SHOP
+                  </span>
+                  <ul>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Category 1
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Category 2
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Category 3
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Category 4
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Category 5
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="">
+                <div className="w-[90%]">
+                  <span className="text-[16px] text-[#262626] font-dm font-bold mb-[17px] ">
+                    HELP
+                  </span>
+                  <ul>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Privacy Policy
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Terms & Conditions
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Special E-shop
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Shipping
+                    </li>
+                    <li className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                      Secure Payments
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="lg:w-[20%] w-full text-center lg:text-start lg:pb-0 pb-7">
+              <div className="">
+                <div className=" ">
+                  <ul>
+                    <li>
+                      {" "}
+                      <a
+                        href=""
+                        className="text-[16px] text-[#262626] font-dm font-bold mb-[17px] "
+                      >
+                        (052) 611-5711
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        className="text-[16px] text-[#262626] font-dm font-bold mb-[17px] "
+                      >
+                        company@domain.com
+                      </a>
+                    </li>
+                    <li>
+                      <p className="text-[14px] text-[#6D6D6D] font-dm font-medium py-1">
+                        575 Crescent Ave. Quakertown, PA 18951
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-[15%]">
-            <h4 className="text-[16px] font-bold text-[#262626] leading-6 pb-[17px]">SHOP</h4>
-            <ul>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Category 1</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Category 2</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Category 3</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Category 4</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Category 5</li>
-            </ul>
-          </div>
-          <div className="w-[15%]">
-            <h4 className="text-[16px] font-bold text-[#262626] leading-6 pb-[17px]">HELP</h4>
-            <ul>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Privacy Policy</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Terms & Conditions</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Special E-shop</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Shipping</li>
-              <li className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">Secure Payments</li>
-            </ul>
-          </div>
-          <div className="w-[25%]">
-            <h4 className="text-[16px] font-bold text-[#262626] leading-6">(052) 611-5711</h4>
-            <h4 className="text-[16px] font-bold text-[#262626] leading-6 pb-[17px]">company@domain.com</h4>
-            <p className="text-[16px] font-dmfont text-[#6D6D6D] font-medium  pb-[6px]">575 Crescent Ave. Quakertown, PA 18951</p>
-          </div>
-          <div className="w-[30%]">
+          <div className="lg:w-[25%]">
             <div className="">
-              <img src={Logo} alt="" className="w-[25%]"/>
+              <img className="lg:mx-0 mx-auto" src={Logo} alt="" />
             </div>
           </div>
         </div>
-
-        <div className="flex justify-between pt-[65px]">
-          <div className="flex gap-x-6">
-            <span>
-              <GrFacebookOption className="text-[24px]"/>{" "}
-            </span>
-            <span>
-              {" "}
-              <GrLinkedinOption className="text-[24px]"/>{" "}
-            </span>
-            <span>
-              {" "}
-              <GrInstagram className="text-[24px]"/>{" "}
-            </span>
+        <div className=" lg:flex lg:justify-between pt-[65px] ">
+          <div className="flex items-center lg:justify-start justify-center ">
+            <GrFacebookOption />
+            <GrLinkedinOption className="mx-[26px]" />
+            <GrInstagram />
           </div>
           <div className="">
-            <p className="text-[16px] font-dmfont text-[#6D6D6D] font-medium">2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+            <div className="text-center">
+              <p className="text-[14px] text-[#6D6D6D] font-dm font-medium ">
+                2020 Orebi Minimal eCommerce Figma Template by Adveits
+              </p>
+            </div>
           </div>
         </div>
       </div>

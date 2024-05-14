@@ -169,7 +169,7 @@ const Products = () => {
             <div className="flex justify-between pt-[60px] pl-[38px] flex-wrap">
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arri} alt="" className="w-full h-[350px]" />
+                  <img src={Arri} alt="" className="w-full " />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -206,7 +206,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arrii} alt="" className="w-full h-[350px]" />
+                  <img src={Arrii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -243,7 +243,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arriii} alt="" className="w-full h-[350px]" />
+                  <img src={Arriii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -280,7 +280,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arrrii} alt="" className="w-full h-[350px]" />
+                  <img src={Arrrii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -317,7 +317,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Aarrii} alt="" className="w-full h-[350px]" />
+                  <img src={Aarrii} alt="" className="w-full " />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -354,7 +354,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arrriii} alt="" className="w-full h-[350px]" />
+                  <img src={Arrriii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -391,7 +391,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arrrrii} alt="" className="w-full h-[350px]" />
+                  <img src={Arrrrii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -428,7 +428,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Aarriiii} alt="" className="w-full h-[350px]" />
+                  <img src={Aarriiii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -465,7 +465,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arrfgii} alt="" className="w-full h-[350px]" />
+                  <img src={Arrfgii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -502,7 +502,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arridgdi} alt="" className="w-full h-[350px]" />
+                  <img src={Arridgdi} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -539,7 +539,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arrrii} alt="" className="w-full h-[350px]" />
+                  <img src={Arrrii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">
@@ -576,7 +576,7 @@ const Products = () => {
               </div>
               <div className="w-[32%] mb-[50px]">
                 <div className="relative group overflow-hidden">
-                  <img src={Arrrrii} alt="" className="w-full h-[350px]" />
+                  <img src={Arrrrii} alt="" className="w-full" />
                   <div className="absolute bg-[#F5F5F5] py-8 bottom-[-120px] right-0 w-full opacity-0 group-hover:bottom-[0px] group-hover:opacity-100 duration-500 ease-in-out ">
                     <div className="flex justify-end items-center gap-x-2 mr-4">
                       <p className="text-[16px] text-[#767676] font-dmfont font-medium py-2 hover:text-[#000] hover:font-bold">

@@ -64,19 +64,19 @@ const Banner = () => {
           <div className="flex justify-between">
             <div className="flex items-center">
               <RiNumber2 />
-              <p className="text-[16px] font-dmfont font-medium text-[#6D6D6D] pl-3">
+              <p className="lg:text-[16px] text-[10px] font-dmfont font-medium text-[#6D6D6D] lg:pl-3">
                 Two years warranty
               </p>
             </div>
             <div className="flex items-center">
               <FaTruck />
-              <p className="text-[16px] font-dmfont font-medium text-[#6D6D6D] pl-3">
+              <p className="lg:text-[16px] text-[10px] font-dmfont font-medium text-[#6D6D6D] lg:pl-3">
                 Free shipping
               </p>
             </div>
             <div className="flex items-center">
               <TbReload />
-              <p className="text-[16px] font-dmfont font-medium text-[#6D6D6D] pl-3">
+              <p className="lg:text-[16px] text-[10px] font-dmfont font-medium text-[#6D6D6D] lg:pl-3">
                 Return policy in 30 days
               </p>
             </div>

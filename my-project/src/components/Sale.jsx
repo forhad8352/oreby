@@ -5,16 +5,16 @@ import Salll from "../assets/sale3.png";
 
 const Sale = () => {
   return (
-    <section className="mt-[170px] mb-[120px]">
+    <section className="lg:mt-[170px] mt-[100px] mb-[120px]">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-6">
-          <div className="w-46%">
+        <div className="lg:flex lg:justify-between lg:gap-6">
+          <div className="lg:w-46%">
             <div className="">
               <img src={Sal} alt="" />
             </div>
           </div>
-          <div className="w-46%">
-            <div className="">
+          <div className="lg:w-46%">
+            <div className="pt-[30px] lg:pt-0">
               <img src={Sall} alt="" />
             </div>
             <div className="pt-[30px]">

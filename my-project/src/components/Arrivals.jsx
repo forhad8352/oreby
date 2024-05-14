@@ -32,7 +32,24 @@ const settings = {
         slidesToShow: 4,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+          {
+            breakpoint: 624,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 2
+            }
+          },
+        ]
         };
 
   let [products, setProducts] = useState([]);
@@ -48,7 +65,7 @@ const settings = {
  
 
   return (
-    <section className="mb-[150px]">
+    <section className="lg:mb-[150px]">
       <div className="container mx-auto">
         <div className="">
           <h2 className="text-[39px] font-dmfont font-bold pb-[48px]">

@@ -44,19 +44,19 @@ const Searchbar = () => {
       <div className="container mx-auto ">
         <div className="flex items-center">
           <div className="w-[30%] ">
-            <div className="flex items-center" ref={cateMenu}>
+            <div className="flex items-center " ref={cateMenu}>
               <HiMiniBars3BottomLeft />
               <p className="pl-[10px] text-[14px] ">Shop by Category</p>
             </div>
             {cateshow &&
-            <div className=" bg-[#262626] absolute z-50 lg:top-[150px] top-[48px] left-[120px] lg:w-[300px] w-[200px] ">
+            <div className=" bg-[#262626] absolute z-50 lg:top-[150px] top-[140px] left-[0px] lg:w-[300px] w-[200px] ">
             <ul>
-            <li className='py-3'><a href="#" className='text-[rgba(255,255,255,0.73)] text-[16px] font-dm font-normal lg:pl-5 pl-0  hover:text-[#fff] hover:pl-10 duration-700'>Accesories</a></li>
-            <li className='py-3'><a href="#" className='text-[rgba(255,255,255,0.73)] text-[16px] font-dm font-normal lg:pl-5 pl-0  hover:text-[#fff] hover:pl-10 duration-700'>Furniture</a></li>
-            <li className='py-3  relative'><a href="#"  className='text-[rgba(255,255,255,0.73)] text-[16px] font-dm font-normal pl-5  hover:text-[#fff] hover:pl-10 duration-700'>Electronics</a></li>
-            <li className='py-3'><a href="#" className='text-[rgba(255,255,255,0.73)] text-[16px] font-dm font-normal lg:pl-5 pl-0  hover:text-[#fff] hover:pl-10 duration-700'>Clothes</a></li>
-            <li className='py-3'><a href="#" className='text-[rgba(255,255,255,0.73)] text-[16px] font-dm font-normal lg:pl-5 pl-0  hover:text-[#fff] hover:pl-10 duration-700'>Bags</a></li>
-            <li className='py-3'><a href="#" className='text-[rgba(255,255,255,0.73)] text-[16px] font-dm font-normal lg:pl-5 pl-0  hover:text-[#fff] hover:pl-10 duration-700'>Home appliances</a></li>
+            <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Accesories</a></li>
+            <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Furniture</a></li>
+            <li className='lg:py-3 py-1  relative'><a href="#"  className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Electronics</a></li>
+            <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Clothes</a></li>
+            <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Bags</a></li>
+            <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Home appliances</a></li>
         </ul>
             </div>
             }
@@ -68,8 +68,8 @@ const Searchbar = () => {
                 placeholder="Search Products"
                 className="border-2 border-[#FFFFFF] w-full h-10 rounded-[10px] pl-[10px]"
               />
-              <div className="absolute right-[15px] top-[50%] translate-y-[-50%] ">
-                <FaSearch />
+              <div className="">
+                < FaSearch  className="absolute lg:top-[26%]  top-[40%] lg:right-[25px] right-[5px] lg:text-[16px] text-[10px] text-[#262626a4] "/>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ const Searchbar = () => {
                 <FaCartShopping className='lg:text-[24px] text-[#262626] ml-[15px]' />
             </a>
             {cartshow &&
-            <div className="absolute z-50 top-[40px] lg:right-0 right-[-15px] ">
+            <div className="absolute z-50 top-[40px] lg:right-0 right-[-32px] ">
               <div className="flex bg-[#F5F5F3] py-[20px] px-[20px]">
                 <div className="flex items-center justify-between w-[350px]">
                   <div className="h-[100px] w-[100px] bg-[#979797] mr-[20px]"></div>
