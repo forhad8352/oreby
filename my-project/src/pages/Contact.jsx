@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="container mx-auto">
       <div className="pt-[124px]">
-        <h2 className="text-[49px] font-dmfont font-bold">Product</h2>
+        <h2 className="text-[49px] font-dmfont font-bold">Contact</h2>
         <span className="flex items-center gap-x-2 text-[12px] text-[#767676] font-dmfont font-normal">
           {" "}
           <Link to={"/"}>Home</Link> &gt; Contact{" "}

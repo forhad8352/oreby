@@ -5,3 +5,14 @@
 .slick-dots .slick-active div{
         border-right: 3px solid black !important ;
 }
+
+
+@media (max-width:640px){
+        .banrul{
+                margin-left: -40px !important
+        }
+      .baner{
+        padding: 1px 0 !important;
+              
+      }
+}

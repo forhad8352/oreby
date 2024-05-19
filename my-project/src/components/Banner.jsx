@@ -15,7 +15,7 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     appendDots: (dots) => (
-      <div
+      <div 
         style={{
           borderRadius: "10px",
           padding: "10px",
@@ -25,11 +25,11 @@ const Banner = () => {
           left: "50px",
         }}
       >
-        <ul style={{ margin: "0px" }}> {dots} </ul>
+        <ul className="banrul" style={{ margin: "0px" }}> {dots} </ul>
       </div>
     ),
     customPaging: (i) => (
-      <div
+      <div className="baner"
         style={{
           padding: "8px 0",
           width: "30px",

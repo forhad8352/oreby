@@ -5,6 +5,7 @@ import { FaCartShopping } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Searchbar = () => {
   let [cateshow, setCateshow] = useState(false)
@@ -46,14 +47,14 @@ const Searchbar = () => {
           <div className="w-[30%] ">
             <div className="flex items-center " ref={cateMenu}>
               <HiMiniBars3BottomLeft />
-              <p className="pl-[10px] text-[14px] ">Shop by Category</p>
+              <p className="lg:pl-[10px] pl-2 lg:text-[16px] text-[14px] ">Shop by Category</p>
             </div>
             {cateshow &&
-            <div className=" bg-[#262626] absolute z-50 lg:top-[150px] top-[140px] left-[0px] lg:w-[300px] w-[200px] ">
+            <div className=" bg-[#262626] absolute z-50 lg:top-[150px] top-[140px] left-[75px] lg:w-[300px] w-[200px] ">
             <ul>
             <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Accesories</a></li>
             <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Furniture</a></li>
-            <li className='lg:py-3 py-1  relative'><a href="#"  className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Electronics</a></li>
+            <li className='lg:py-3 py-1'><a href="#"  className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Electronics</a></li>
             <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Clothes</a></li>
             <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Bags</a></li>
             <li className='lg:py-3 py-1'><a href="#" className='text-[rgba(255,255,255,0.73)] lg:text-[16px] text-[14px] font-dm font-normal lg:pl-5 pl-2  hover:text-[#fff] hover:pl-10 duration-700'>Home appliances</a></li>
@@ -84,7 +85,7 @@ const Searchbar = () => {
                     <div className="absolute z-50 top-12 right-[0px]">
                         <div className="text-center">
                             <ul>
-                                <li className='text-[#262626] bg-[#FFFFFF]  h-[50px] w-[150px] leading-[50px] hover:bg-[#262626] hover:text-[#fff] duration-500 '>My Account</li>
+                                <li className='text-[#262626] bg-[#FFFFFF]  h-[50px] w-[150px] leading-[50px] hover:bg-[#262626] hover:text-[#fff] duration-500 '><Link to={"/Login"}>My Account</Link></li>
                                 <li className='text-[#262626] bg-[#FFFFFF]  h-[50px] w-[150px] leading-[50px] hover:bg-[#262626] hover:text-[#fff] duration-500 '>Log Out</li>
                             </ul>
                         </div>
