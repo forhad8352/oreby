@@ -44,18 +44,18 @@ const About = () => {
               </div>
             </div>
             <div className="pt-[128px]">
-              <h3 className=" text-[39px] font-dmfont font-normal leading-[52px]">
+              <h3 className=" text-[39px] font-dmfont font-normal leading-[52px] ">
                 Orebi is one of the world’s leading ecommerce brands and is
                 internationally recognized for celebrating the essence of
                 classic Worldwide cool looking style.
               </h3>
             </div>
-            <div className="flex justify-between py-[120px]">
+            <div className="flex justify-between py-[120px]" >
               <div className="w-[30%]">
                 <h4 className="text-[25px] font-dmfont font-bold">
                   Our Vision
                 </h4>
-                <p className="text-[16px] font-dmfont font-normal text-[#767676] leading-[30px]">
+                <p className="text-[16px] font-dmfont font-normal text-[#767676] leading-[30px] ">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an printer took

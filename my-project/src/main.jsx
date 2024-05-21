@@ -5,9 +5,10 @@ import './index.css'
 import "slick-carousel/slick/slick.css";
 import 'aos-animations/dist/animations.min.css';
 import 'aos-animations/dist/animations.min.js';
+import { ContextApi } from './components/ContextApi.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ContextApi>
+     <App />
+  </ContextApi>,
 )
