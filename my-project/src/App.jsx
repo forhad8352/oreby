@@ -7,11 +7,13 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
+import ProductDetails from './components/pagination/ProductDetails'
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout/>}>
     <Route index element={<Home/>}></Route>
     <Route path="/Products" element={<Products/>}></Route>
+    <Route path="/Products/:id" element={<ProductDetails/>}></Route>
     <Route path="/About" element={<About/>}></Route>
     <Route path="/Contact" element={<Contact/>}></Route>
     <Route path="/Login" element={<Login/>}></Route>
