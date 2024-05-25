@@ -23,6 +23,21 @@ const Products = () => {
   for(let i = 0; i < Math.ceil(data.length / perPage); i++){
     pageNumber.push(i)
   }
+  let paginate = (pageNumber)=>{
+    setPageStart(pageNumber + 1)
+
+  }
+  let next = ()=>{
+    if (pageStart < pageNumber.length) {
+      setPageStart((state) => state + 1)
+    }
+  }
+  let prev = ()=>{
+    if (pageStart > 1) {
+      setPageStart((state) => state - 1)
+    }
+  }
+
   return (
     <section>
       <div className="container mx-auto">
@@ -172,7 +187,7 @@ const Products = () => {
             </div>
               <Page allPage={allPage}/>
               <div className="text-end">
-                <PaginationArea pageNumber={pageNumber}/>
+                <PaginationArea pageNumber={pageNumber} paginate={paginate} pageStart={pageStart} next={next} prev={prev}/>
               </div>
           </div>
           
