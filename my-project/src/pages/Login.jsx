@@ -44,9 +44,9 @@ const Login = () => {
         </div>
         <div className="w-[25%]">
           <div className="pt-[29px]">
-            <h5 className="text-[16px] text-[#000] text-center font-dmfont font-bold py-[12px] px-6 border-[1px] border-[#000]  hover:bg-[black] hover:text-[#fff] duration-1000 ease-in-out">
-              Log in
-            </h5>
+          <h5 className="text-[16px] text-[#000] text-center font-dmfont font-bold w-[180px] h-[50px] pt-3 border-[1px] border-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] duration-1000 ease-in-out">
+            Log in
+          </h5>
           </div>
         </div>
       </div>
@@ -64,9 +64,9 @@ const Login = () => {
             ever since the.
           </p>
           <div className="pt-[51px]">
-            <h5 className="w-[30%] text-[16px] text-[#000] text-center font-dmfont font-bold py-[12px] px-6 border-[1px] border-[#000]  hover:bg-[black] hover:text-[#fff] duration-1000 ease-in-out">
-              Continue
-            </h5>
+          <h5 className="text-[16px] text-[#000] text-center font-dmfont font-bold w-[180px] h-[50px] pt-3 border-[1px] border-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] duration-1000 ease-in-out">
+            Continue
+          </h5>
           </div>
         </div>
       </div>

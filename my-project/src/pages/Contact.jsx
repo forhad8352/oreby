@@ -40,7 +40,7 @@ const Contact = () => {
           />
         </div>
         <div className="w-[16%]">
-          <h5 className="text-[16px] text-[#fff] text-center font-dmfont font-bold py-4 px-6 border-[1px] border-[#000] bg-[black] hover:bg-[tomato] hover:text-[#000] duration-1000 ease-in-out">
+        <h5 className="text-[16px] text-[#000] text-center font-dmfont font-bold w-[180px] h-[50px] pt-3 border-[1px] border-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] duration-1000 ease-in-out">
             Post
           </h5>
         </div>
