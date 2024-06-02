@@ -8,6 +8,8 @@ import Contact from './pages/Contact'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 import ProductDetails from './components/pagination/ProductDetails'
+import Cart from './pages/Cart'
+import Chekout from './pages/Chekout'
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout/>}>
@@ -18,6 +20,8 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/Contact" element={<Contact/>}></Route>
     <Route path="/Login" element={<Login/>}></Route>
     <Route path="/SignUp" element={<SignUp/>}></Route>
+    <Route path="/Cart" element={<Cart/>}></Route>
+    <Route path="/Chekout" element={<Chekout/>}></Route>
   </Route>
 ))
 
